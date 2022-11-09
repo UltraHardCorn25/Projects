@@ -80,8 +80,6 @@ body{
     vertical-align: middle;
     cursor: pointer;
 }
-.blue-button {
-}
 .reset{
     width: 170px;
     grid-column: 1/2;
