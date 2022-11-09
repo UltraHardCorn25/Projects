@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <p class="name cards">Jane Appleseed</p>
+    <p class="number cards">0000 0000 0000 0000</p>
+    <p class="date cards">00</p>
+    <p class="date">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/</p>
+    <p class="date2 cards">00</p>
+    
+    <p class="name copy">Jane Appleseed</p>
+    <p class="number copy">0000 0000 0000 0000</p>
+    <p class="date copy">00</p>
+    <p class="date ">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/</p>
+    <p class="date2 copy">00</p>
+  </div>
+  <div class="card back">
+    <p class="ccv cards">732</p>
+    <p class="ccv copy">732</p>
+  </div>
+
+
+
+
+  <br><br><br>
+  <div class="register">
+    <input type="text" class="inputs name-input" id=""autocomplete="off" required="" maxlength="20"><p class="input-name">Cardholder Name</p></input>
+
+    <input type="text" class="inputs number-input" id=""autocomplete="off" required="" maxlength="19"><p class="input-name">Cardholder Number</p></input>
+    <p class = "wrong-number"></p>
+
+    <p class="lable">Exp. Date (MM/YY)</p>
+    <input type="text" class="inputs inputs-small mm-input" id=""autocomplete="off" required="" maxlength="2"><p class="input-name input-name-small">MM</p></input>
+
+    <input type="text" class="inputs inputs-small date-two yy-input" id=""autocomplete="off" required="" maxlength="2"><p class="input-name input-name-small date-text">YY</p></input>
+
+    <input type="text" class="inputs inputs-small inputs-mid cvc-input" id="" autocomplete="off" required="" maxlength="3"><p class="input-name input-name-small">CVC</p></input>
+    <br>
+    <div class="errors">
+      <p class="error-small"></p>
+      <p class="error-small"></p>
+      <p class="error-small"></p>
+    </div>  
+    <br><br>
+    <button class="confirm">CONFIRM</button>
+  </div>
+  
+  
+ 
+
+
+  <!-- Thank you!
+  We've added your card details
+  Continue
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
