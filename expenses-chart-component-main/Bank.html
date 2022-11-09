@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style/bank_style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="balance">
+    <p class="text-all">My balance</p>
+    <p class="money-count-small">$0</p>
+  </div>
+<!-- add money you spent -->
+  <div class="add spent">
+    <button class="close"></button>
+    <p class="text-all">Insert the amount of money you spent</p>
+    <input type="number" class="inputs add-input" id=""autocomplete="off" required="" min="-1_000_000" max="1_000_000">
+        <p class="place-holder">Amount</p>
+    </input>
+    <div class="select-days">
+      <li class="select-day">mon</li>
+      <li class="select-day">tue</li>
+      <li class="select-day">wed</li>
+      <li class="select-day">thu</li>
+      <li class="select-day">fri</li>
+      <li class="select-day">sat</li>
+      <li class="select-day">sun</li>
+    </div>
+    <button class="btn-confirm">Confirm</button>
+  </div>
+<!-- add money you earned -->
+  <div class="add earned">
+    <button class="close"></button>
+      <p class="text-all">Insert the amount of money you earned</p>
+      <input type="number" class="inputs add-input" id=""autocomplete="off" required="" min="-1_000_000" max="1_000_000">
+          <p class="place-holder">Amount</p>
+      </input>
+      <button class="btn-confirm">Confirm</button>
+  </div>
+<!-- display of the money you spent - chart -->
+  <div class="container">
+    <p class="text-big">Spending - Last 7 days</p>
+    <button class="settings">
+      <div class="option-container">
+        <div class = "options">
+          <li class="option add-money"></li>
+          <li class="option spend-money"></li>
+          <li class="option logout"></li>
+        </div>
+      </div>
+    </button>
+    <div class="chart">
+      <ul class="list">  
+        <li class="day"><div id="show"></div></li>
+        <li class="day"><div id="show"></div></li>
+        <li class="day"><div id="show"></div></li>
+        <li class="day"><div id="show"></div></li>
+        <li class="day"><div id="show"></div></li>
+        <li class="day"><div id="show"></div></li>
+        <li class="day"><div id="show"></div></li>
+      </ul>
+      <ul class="list">
+        <li class="day-name">mon</li>
+        <li class="day-name">tue</li>
+        <li class="day-name">wed</li>
+        <li class="day-name">thu</li>
+        <li class="day-name">fri</li>
+        <li class="day-name">sat</li>
+        <li class="day-name">sun</li>
+      </ul>
+    </div>
+    <div class="total">
+      <p class="text-all">Total this week</p>
+      <div class="precentages">
+        <p class="money-count-big">0$</p>
+        <div class="last-week">
+          <p class="precentage"> +2.4% </p>
+          <p >from last week</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="text-big">To do list</p>
+    <input type="text" class="to_do" required="">
+    <div class="option add-money to_do_add"></div>
+    <ul class="to_do-list">
+    </ul>
+  </div>
+  
+<script src="js/user.js"></script>
+<script src="js/session.js"></script>
+<script type="text/javascript" src="js/bank_script.js"></script>
+</body>
+</html>
+<!--   <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
