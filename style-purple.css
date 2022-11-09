@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(268, 75%, 9%);
+    color:hsl(52, 100%, 62%);
+}
+
+.slider {
+    background-color:  hsl(268, 71%, 12%);
+}
+.dot {
+    background-color: hsl(177, 92%, 70%);
+}
+.result-container{
+    background-color:  hsl(268, 71%, 12%);
+    border: 25px solid  hsl(268, 71%, 12%);
+}
+.calculator{
+    background-color:  hsl(268, 71%, 12%);
+}
+.button {
+    background-color: hsl(268, 47%, 21%);
+    border-bottom: 5px solid  hsl(290, 70%, 36%);
+}
+.blue-button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(281, 89%, 26%);
+    border-bottom: 5px solid hsl(285, 91%, 52%);
+}
+
+.equals {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 100%, 44%);
+    border-bottom: 5px solid hsl(177, 92%, 70%);
+}

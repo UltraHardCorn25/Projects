@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slider {
+    background-color: hsl(223, 31%, 20%);
+}
+.dot {
+    background-color: red;
+}
+.result-container{
+    background-color: hsl(223, 31%, 20%);
+    border: 25px solid hsl(223, 31%, 20%);
+}
+.result{
+    color: white;
+}
+.calculator{
+    background-color: hsl(223, 31%, 20%);
+}
+.button {
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    border-bottom: 5px solid hsl(28, 16%, 65%);
+}
+.blue-button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 21%, 49%);
+    border-bottom: 5px solid hsl(224, 28%, 35%);
+}
+.equals {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(6, 63%, 50%);
+    border-bottom: 5px solid hsl(6, 70%, 34%);
+}
